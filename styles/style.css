@@ -1,0 +1,491 @@
+.navbar {
+  padding: 24px 0px 24px 7%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a > img {
+  margin-right: 20px;
+  width: 240px;
+}
+.navbar .nav-link {
+  font-size: 0.75em;
+  font-family: "system-ui";
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 410px) {
+  .navbar a > img {
+    width: 130px;
+    margin-right: 5px;
+  }
+}
+.home {
+  width: 100%;
+  height: 100vh;
+  background: black url("../../images/home/01.jpg") center center no-repeat scroll;
+  background-size: cover;
+}
+.home .container {
+  padding-top: 184px;
+}
+
+.container {
+  color: white;
+}
+.container button {
+  padding: 15px 35px;
+  margin-top: 45px;
+  border: 2px solid white;
+}
+.container button:hover {
+  transition: all 0.2s ease-in;
+}
+
+.home-part2 {
+  background: black url("../../images/home/03.jpg") center center no-repeat scroll;
+}
+
+.home-part3 {
+  background: black url("../../images/home/02.gif") center center no-repeat scroll;
+}
+
+.home-part4 {
+  background: black url("../../images/home/04.jpg") center center no-repeat scroll;
+}
+
+.home-part2, .home-part3, .home-part4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.body-human {
+  overflow-x: hidden;
+}
+
+.human {
+  width: 100%;
+  height: 100vh;
+  background: black url("../../images/human/01.jpg") center center no-repeat scroll;
+  background-size: cover;
+}
+.human .container {
+  padding-top: 30px;
+}
+.human .container h1 {
+  font-size: 7.5em;
+  font-family: "system-ui";
+  color: white;
+}
+.human .container p {
+  font-size: 1.9em;
+  font-family: "system-ui";
+  color: white;
+}
+
+.human-part2, .human-part4 {
+  width: 100%;
+  height: 120vh;
+  background: black url("../../images/human/02.jpg") center center no-repeat scroll;
+  background-size: contain;
+}
+.human-part2 .row, .human-part4 .row {
+  height: 35%;
+}
+.human-part2 .top-text, .human-part4 .top-text {
+  font-size: 1.2em;
+  font-family: "system-ui";
+  color: #b9b9b9;
+  width: 65%;
+  font-weight: 600;
+  padding: 20px 60px;
+}
+.human-part2 .top-text a, .human-part4 .top-text a {
+  color: white;
+  text-decoration: none;
+}
+.human-part2 .top-text a:hover, .human-part4 .top-text a:hover {
+  color: darkblue;
+  transition: all 0.1s ease-in;
+}
+.human-part2 .content, .human-part4 .content {
+  margin-left: 100px;
+}
+.human-part2 .content h1, .human-part4 .content h1 {
+  font-size: 3.7em;
+  font-family: "system-ui";
+  color: white;
+  font-weight: bolder;
+}
+
+.human-part3, .human-part5 {
+  width: 100%;
+  height: 100vh;
+  background: black url("../../images/human/03.jpg") center center no-repeat scroll;
+  background-size: cover;
+}
+.human-part3 .row, .human-part5 .row {
+  height: 35%;
+}
+.human-part3 .content, .human-part5 .content {
+  margin-left: 80px;
+}
+.human-part3 .content h1, .human-part5 .content h1 {
+  font-size: 3.7em;
+  font-family: "system-ui";
+  color: white;
+  font-weight: bolder;
+}
+
+.human-part4 {
+  height: 100vh;
+  background: black url("../../images/human/04.jpg") center center no-repeat scroll;
+  background-size: contain;
+}
+
+.human-part5 {
+  background: black url("../../images/human/05.jpg") center center no-repeat scroll;
+  background-size: cover;
+}
+
+.human-part6, .falcon-part6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: black;
+}
+.human-part6 p, .falcon-part6 p {
+  font-size: 1em;
+  font-family: "system-ui";
+  color: white;
+}
+.human-part6 p a, .falcon-part6 p a {
+  color: #b9b9b9;
+  text-decoration: none;
+}
+.human-part6 p a:hover, .falcon-part6 p a:hover {
+  color: white;
+  transition: all 0.1s ease-in;
+}
+.human-part6 .container, .falcon-part6 .container {
+  height: 20px;
+  margin: 0;
+}
+.human-part6 .container button, .falcon-part6 .container button {
+  margin: 0 5px 10px 0;
+}
+
+.falcon {
+  width: 100%;
+  height: 100vh;
+  background: black url("../../images/falcon/01.jpg") center center no-repeat scroll;
+  background-size: cover;
+}
+.falcon .container {
+  padding-top: 150px;
+}
+.falcon .container h1 {
+  font-size: 6em;
+  font-family: "system-ui";
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562);
+}
+.falcon .container p {
+  font-size: 1.3em;
+  font-family: "system-ui";
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562);
+}
+
+.falcon-part2 {
+  width: 100%;
+  height: 120vh;
+  background: black url("../../images/falcon/02.jpg") center center no-repeat scroll;
+  background-size: cover;
+}
+.falcon-part2 .row {
+  height: 40%;
+}
+.falcon-part2 .launch {
+  padding: 30px 10px;
+}
+.falcon-part2 .qtd-launch {
+  font-size: 5.5em;
+  font-family: "system-ui";
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.falcon-part2 .launch-info {
+  font-size: 1.2em;
+  font-family: "system-ui";
+  color: white;
+  font-weight: 400;
+}
+.falcon-part2 .part2-content {
+  font-size: 1.4em;
+  font-family: "system-ui";
+  color: white;
+  width: 60%;
+  line-height: 2;
+}
+
+.falcon-part3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  background-color: black;
+}
+.falcon-part3 .carousel {
+  display: block;
+  width: 100vw;
+  margin: 0 auto;
+  position: sticky;
+}
+.falcon-part3 .carousel table {
+  position: absolute;
+  top: 40%;
+  left: 200px;
+  transform: translate(0, -50%);
+}
+.falcon-part3 .carousel table th {
+  font-size: 1em;
+  font-family: "system-ui";
+  color: white;
+  font-weight: 400;
+  border: none;
+  padding: 1em;
+}
+.falcon-part3 .carousel table .h3 {
+  display: inline-block;
+  margin-top: 10px;
+}
+.falcon-part3 .carousel table td {
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+.falcon-part3 .carousel table .final-info {
+  text-align: end;
+}
+.falcon-part3 .carousel .info {
+  position: absolute;
+  top: 30%;
+  left: 200px;
+  width: 450px;
+}
+.falcon-part3 .carousel .info .info-content {
+  font-size: 0.9em;
+}
+.falcon-part3 .carousel .carousel-item-3 .info, .falcon-part3 .carousel .carousel-item-5 .info {
+  top: 15%;
+}
+.falcon-part3 .carousel .carousel-item-3 .info-content-3, .falcon-part3 .carousel .carousel-item-3 .info-content-5, .falcon-part3 .carousel .carousel-item-5 .info-content-3, .falcon-part3 .carousel .carousel-item-5 .info-content-5 {
+  font-size: 0.9em;
+}
+.falcon-part3 .carousel .carousel-item-3 table, .falcon-part3 .carousel .carousel-item-5 table {
+  top: 75%;
+}
+
+.falcon-part4 {
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  background: black url("../../images/falcon/08.jpg") center center no-repeat scroll;
+  background-size: cover;
+}
+.falcon-part4 .row {
+  height: 25%;
+}
+.falcon-part4 .content {
+  margin-left: 200px;
+}
+.falcon-part4 .content p {
+  max-width: 450px;
+}
+.falcon-part4 .content table {
+  width: 500px;
+}
+.falcon-part4 .content table td {
+  font-size: 1.2em;
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+.falcon-part4 .content table .final-info {
+  text-align: end;
+}
+
+.falcon-part5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  background-color: black;
+}
+.falcon-part5 .carousel {
+  display: block;
+  width: 100vw;
+  min-height: 300px;
+  margin: 0 auto;
+  position: sticky;
+}
+
+footer {
+  background-color: black;
+  padding: 30px 0px;
+}
+footer p {
+  font-size: 0.7em;
+  font-family: "system-ui";
+  color: #555252;
+  display: inline-block;
+}
+footer a {
+  font-size: 0.7em;
+  font-family: "system-ui";
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 30px;
+}
+footer a:hover {
+  color: #b9b9b9;
+  transition: all 0.1s ease-in;
+}
+
+@media screen and (max-width: 420px) {
+  .human-part2 .top-text, .human-part4 .top-text, .human-part3 .top-text, .human-part5 .top-text {
+    width: 95%;
+    font-size: 0.9em;
+  }
+  .human-part2 .content, .human-part4 .content, .human-part3 .content, .human-part5 .content {
+    margin-left: 20px;
+  }
+  .human-part2 .content h1, .human-part4 .content h1, .human-part3 .content h1, .human-part5 .content h1 {
+    font-size: 2em;
+  }
+  .falcon > .container h1 {
+    font-size: 3em;
+  }
+  .falcon > .container p {
+    font-size: 0.9em;
+  }
+  .falcon-part5 .carousel .bg-dark {
+    font-size: 0.6em;
+  }
+}
+@media screen and (max-width: 560px) {
+  .falcon-part2 {
+    height: 100%;
+  }
+  .falcon-part2 .row {
+    height: 15%;
+  }
+  .falcon-part2 .launch-info {
+    font-size: 0.7em;
+  }
+  .falcon-part2 .qtd-launch {
+    font-size: 3em;
+  }
+  .falcon-part2 .part2-content {
+    width: 100%;
+  }
+  .falcon-part4 .row {
+    height: 5%;
+  }
+  .falcon-part4 .content p {
+    width: 150%;
+  }
+  .falcon-part4 .content table {
+    width: 150%;
+  }
+  .falcon-part4 .content table td {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .human .container {
+    padding-top: 200px;
+  }
+  .human .container h1 {
+    font-size: 10vw;
+  }
+  .human .container p {
+    font-size: 6vw;
+  }
+  .falcon-part3 > .carousel .info {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+    width: 90%;
+  }
+  .falcon-part3 > .carousel .info .info-content {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .falcon-part3 .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .falcon-part3 .carousel table {
+    top: 0;
+    left: 0px;
+    transform: translate(0, 0);
+  }
+  .falcon-part3 .carousel th {
+    font-size: 0.5em;
+    font-weight: normal;
+  }
+  .falcon-part3 .carousel .h3 {
+    font-size: 0.8em;
+  }
+  .falcon-part3 .carousel td {
+    padding: 0;
+    font-size: 0.5em;
+  }
+  .falcon-part3 .carousel .carousel-item-2 .info, .falcon-part3 .carousel .carousel-item-3 .info, .falcon-part3 .carousel .carousel-item-4 .info, .falcon-part3 .carousel .carousel-item-5 .info {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+    width: 75%;
+  }
+  .falcon-part3 .carousel .carousel-item-2 .info-content-2, .falcon-part3 .carousel .carousel-item-2 .info-content-3, .falcon-part3 .carousel .carousel-item-2 .info-content-5, .falcon-part3 .carousel .carousel-item-3 .info-content-2, .falcon-part3 .carousel .carousel-item-3 .info-content-3, .falcon-part3 .carousel .carousel-item-3 .info-content-5, .falcon-part3 .carousel .carousel-item-4 .info-content-2, .falcon-part3 .carousel .carousel-item-4 .info-content-3, .falcon-part3 .carousel .carousel-item-4 .info-content-5, .falcon-part3 .carousel .carousel-item-5 .info-content-2, .falcon-part3 .carousel .carousel-item-5 .info-content-3, .falcon-part3 .carousel .carousel-item-5 .info-content-5 {
+    font-size: 0.5em;
+  }
+  .falcon-part3 .carousel .carousel-item-4 p {
+    margin: 5px 0;
+    font-size: 0.8em;
+  }
+  .falcon-part3 .carousel .carousel-item-4 .info-content {
+    font-size: 0.5em;
+  }
+  .falcon-part3 img {
+    height: 45vw;
+    min-height: 300px;
+  }
+  .carousel-item {
+    height: 45vw;
+    min-height: 300px;
+  }
+  .falcon-part4 .content {
+    margin-left: 0px;
+  }
+  .falcon-part5 img {
+    height: 35vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
