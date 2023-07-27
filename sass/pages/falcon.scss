@@ -1,0 +1,178 @@
+.falcon{
+  width: 100%;
+  height: 100vh;
+  background: black url('../images/falcon/01.jpg') center center no-repeat scroll;
+  background-size: cover;
+
+  .container{
+    padding-top: 150px;
+
+    h1 {
+      @include font-style(6em, 'system-ui', white);
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562);
+    }
+
+    p{
+      @include font-style(1.3em, 'system-ui', white);
+      font-weight: bold;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562);
+    }
+  }
+}
+
+.falcon-part2{
+  width: 100%;
+  height: 120vh;
+  background: black url('../images/falcon/02.jpg') center center no-repeat scroll;
+  background-size: cover;
+
+  .row {
+    height: 40%;
+  }
+
+  .launch{
+    padding: 30px 10px;
+  }
+
+  .qtd-launch{
+    @include font-style(5.5em, 'system-ui', white);
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+  .launch-info{
+    @include font-style(1.2em, 'system-ui', white);
+    font-weight: 400;
+  }
+
+  .part2-content{
+    @include font-style(1.4em, 'system-ui', white);
+    width: 60%;
+    line-height: 2;
+  }
+}
+
+.falcon-part3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  background-color: black;
+
+  .carousel {
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+    position: sticky;
+
+    table{
+      position: absolute;
+      top: 40%;
+      left: 200px;
+      transform: translate(0, -50%);
+
+      th {
+        @include font-style(1em, 'system-ui', white);
+        font-weight: 400;
+        border: none;
+        padding: 1em;
+      }
+
+      .h3 {
+        display: inline-block;
+        margin-top: 10px;
+      }
+
+      td {
+        padding: 5px;
+        border-bottom: 1px solid white;
+      }
+
+      .final-info {
+        text-align: end;
+      }
+    }
+
+    .info {
+      position: absolute;
+      top: 30%;
+      left: 200px;
+      width: 450px;
+
+      .info-content {
+        font-size: 0.9em;
+      }
+    }
+
+    .carousel-item-3, .carousel-item-5 {
+      .info {
+        top: 15%;
+      }
+
+      .info-content-3, .info-content-5 {
+        font-size: 0.9em;
+      }
+
+      table{
+        top: 75%;
+      }
+    }
+  }
+}
+
+.falcon-part4 {
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  background: black url('../images/falcon/08.jpg') center center no-repeat scroll;
+  background-size: cover;
+
+  .row {
+    height: 25%;
+  }
+
+  .content {
+    margin-left: 200px;
+
+    p {
+      max-width: 450px;
+    }
+
+    table {
+      width: 500px;
+      td {
+        font-size: 1.2em;
+        padding: 5px;
+        border-bottom: 1px solid white;
+      }
+  
+      .final-info {
+        text-align: end;
+      }
+    }
+  }
+}
+
+.falcon-part5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  background-color: black;
+
+  .carousel {
+    display: block;
+    width: 100vw;
+    min-height: 300px;
+    margin: 0 auto;
+    position: sticky;
+  }
+}
+
+.falcon-part6 {
+  @extend .human-part6;
+}

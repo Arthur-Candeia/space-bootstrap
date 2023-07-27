@@ -1,0 +1,21 @@
+footer {
+  background-color: black;
+  padding: 30px 0px;
+
+  p {
+    @include font-style(0.7em, 'system-ui', $footerText);
+    display: inline-block;
+  }
+
+  a {
+    @include font-style(0.7em, 'system-ui', white);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 30px;
+
+    &:hover {
+      color: $hoverLink;
+      transition: all 0.1s ease-in;
+    }
+  }
+}
